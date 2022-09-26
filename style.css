@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body {
+    background-color: #FFF2EB;
+    padding: 10px;
+}
+
+h1{
+    color: #6D6875;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 150%;
+    margin: 0;
+}
+
+h2{
+    color: #6D6875;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;    
+}
+
+.header {
+    background-color: #FFB4A2;
+}
+
+.container{
+    display: flex;    
+    justify-content: space-around;
+}
+
+.generator {
+    background-color: #FFB4A2;
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    min-height: 150px;
+    
+}
+
+.problem{
+    display: flex;    
+    justify-content: center;
+    font-size: 2rem;
+    line-height: 200%;
+}
+
+.btnCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{    
+    background-color: #B5838D;
+    font-size: 1rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* color: white; */
+    border: black solid 1px;
+}
+
+.btn:hover{
+    background-color: #6D6875;
+}
+
+.answerDisplay {
+    background-color: #FFB4A2;
+    width: 50%;
+    min-height: 150px;
+    margin: 10px;
+
+    color: #6D6875;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Kanit', sans-serif;
+    line-height: 150%;
+}
+
+.lives{
+    font-size: 2rem;
+    margin: 10px;
+    color: #B71515;
+}
+
+.answerForm {    
+    line-height: 150%;
+    margin: 15px;   
+}
+
+#answerBtn{
+    display: none;
+}
