@@ -27,7 +27,7 @@ function randGen() {
         //random number between 0 and 3
         $operator = Math.floor(Math.random() * (parseInt(3) - parseInt($min))) + parseInt($min) + 1;
 
-        console.log($operator);
+        // console.log($operator);
 
         //choose operator
         switch ($operator) {
